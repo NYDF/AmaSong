@@ -1,14 +1,14 @@
 from flask import Blueprint, jsonify, request
-import json
-from app.models import Stock, db
-from flask_login import login_required
-from app.forms import StockForm
+from flask_login import login_required, current_user
+from app.models import db, Cart, Product
+from app.forms import CartForm
 
-stock_routes = Blueprint('stocks', __name__)
+cart_routes = Blueprint('carts', __name__)
 
 
-@stock_routes.route('/')
-def all_stocks():
+@cart_routes.route('/')
+@login_required
+def get_all_():
     """
     Query for all stocks
     """
