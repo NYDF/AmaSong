@@ -7,6 +7,7 @@ This is the starter for the Flask React project.
 
 2. Install dependencies
 
+
       
 3. Create a **.env** file based on the example with proper settings for your
 
