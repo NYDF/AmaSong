@@ -7,7 +7,6 @@ This is the starter for the Flask React project.
 
 2. Install dependencies
 3. Create a **.env** file based on the example with proper settings for your
-
 4. Make sure the SQLite3 database connection URL is in the **.env** file
 5. This starter organizes all tables inside the `flask_schema` schema, defined
    by the `SCHEMA` environment variable.  Replace the value for
