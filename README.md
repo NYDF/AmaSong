@@ -15,7 +15,6 @@ This is the starter for the Flask React project.
 6. Get into your pipenv, migrate your database, seed your database, and run your Flask app
 
    ```bash
-
    ```bash
    flask db upgrade
    ```
