@@ -11,7 +11,6 @@ This is the starter for the Flask React project.
    by the `SCHEMA` environment variable.  Replace the value for
    `SCHEMA` with a unique name, **making sure you use the snake_case
    convention**.
-
 6. Get into your pipenv, migrate your database, seed your database, and run your Flask app
 
    ```bash
