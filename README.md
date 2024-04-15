@@ -16,7 +16,7 @@ This is the starter for the Flask React project.
    flask db upgrade
    ```few
    ```bash
-   flask seed all
+   flask seed allfew
    ```
    ```bash
    flask run
